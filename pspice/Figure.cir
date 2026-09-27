@@ -1,0 +1,20 @@
+* C:\Users\User_\Desktop\Analog proj\Figure.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Tue Sep 08 19:32:39 2026
+
+.PARAM         RS=250 
+
+** Analysis setup **
+.DC LIN PARAM RS 1 3000 100 
+.OP 
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "Figure.net"
+.INC "Figure.als"
+
+.probe
+
+.END
