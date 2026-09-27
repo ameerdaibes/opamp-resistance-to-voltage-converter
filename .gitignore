@@ -1,0 +1,14 @@
+# PSpice generated simulation output
+*.out
+*.dat
+*.prb
+*.mif
+*.MVL
+*.1OP
+
+# Temporary/editor files
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db
